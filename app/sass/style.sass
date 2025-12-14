@@ -447,7 +447,10 @@ p
   font-size: 18px
   font-weight: 600
   margin-bottom: 30px
-
+.content.premium-wrapper
+  .sub-title
+    font-size: 27px
+    font-style: italic
 .list-title
   font-size: 18px
   font-weight: 800
@@ -1337,6 +1340,72 @@ h3
         height: 100% 
         object-fit: cover 
         object-position: center
+.vip-member-wrapper
+  .sub-title
+    span 
+      color: #FEA101
+.vip-member-photo 
+  display: flex
+  justify-content: center
+  overflow: hidden
+  width: 95px
+  height: 95px
+  border-radius: 50%
+  object-fit: cover 
+  object-position: center
+  margin-left: auto
+  margin-right: auto
+  img 
+    width: 100%
+    height: 100%    
+    filter: blur(3px)
+.vip-member-photo-wrapper
+  position: relative
+  width: 95px
+  height: 95px
+  margin-left: auto 
+  margin-right: auto
+  .vip-member-photo-emojy 
+    position: absolute 
+    bottom: 5px 
+    right: -15px
+    font-size: 43px  
+    line-height: 1
+.vip-member-photo
+  margin-bottom: 30px
+.vip-member-wrapper 
+  padding-bottom: 20px
+  background: #20100A
+  padding-top: 15px
+  padding-left: 10px 
+  padding-right: 10px
+  margin-bottom: 30px
+  border: 1px solid rgba(255, 255, 255, 0.1)
+  border-radius: 16px
+.content.premium-wrapper .get-vip-row
+  display: flex
+  width: 400px 
+  max-width: 100% 
+  .sub-title 
+    text-align: left
+    span 
+      color: #FEA101
+.abult-label
+  width: 130px 
+  min-width: 130px
+  height: 130px 
+  border-radius: 50%
+  background: linear-gradient(246.13deg, #FFA200 26.18%, #C83900 80.57%)
+  text-align: center 
+  justify-content: center 
+  align-items: center
+  display: flex 
+  flex-direction: column
+  .abult-label__title 
+    font-size: 32px
+.abult-label__description 
+  font-size: 15px 
+  font-weight: 700
 @media only screen and (max-width: 768px)
   .agreement-btn__wrapper .agreement-btn
     width: 90%
